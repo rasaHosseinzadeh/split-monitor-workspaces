@@ -1,10 +1,10 @@
 [repository]
 name = "split-monitor-workspaces"
-authors = ["Duckonaut"]
+authors = ["rasaHosseinzadeh"]
 
 [split-monitor-workspaces]
 description = "Split monitor workspaces"
-authors = ["Duckonaut"]
+authors = ["rasaHosseinzadeh "]
 output = "build/libsplit-monitor-workspaces.so"
 build = [
     "meson setup build --wipe",

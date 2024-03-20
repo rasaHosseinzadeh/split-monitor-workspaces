@@ -2,13 +2,21 @@
 A small plugin to provide `awesome`/`dwm`-like behavior with workspaces: split them between monitors and provide independent numbering
 
 # Requirements
-- Hyprland >= v0.31.0
+- Hyprland >= v0.36.0
 
 # Installing
 Since Hyprland plugins don't have ABI guarantees, you *should* download the Hyprland source and compile it if you plan to use plugins.
 This ensures the compiler version is the same between the Hyprland build you're running, and the plugins you are using.
 
 The guide on compiling and installing Hyprland manually is on the [wiki](http://wiki.hyprland.org/Getting-Started/Installation/#manual-manual-build)
+
+## Using [hyprpm](https://wiki.hyprland.org/Plugins/Using-Plugins/#hyprpm)
+Hyprpm is a tool integrated with the latest Hyprland version, to use it first you'll need to add the repository and then enable the plugin
+```BASH
+hyprpm add https://github.com/Duckonaut/split-monitor-workspaces # Add the plugin repository
+hyprpm enable split-monitor-workspaces # Enable the plugin
+hyprpm reload # Reload the plugins
+```
 
 ## Using [hyprload](https://github.com/Duckonaut/hyprload)
 Add the line `"Duckonaut/split-monitor-workspaces",` to your `hyprload.toml` config, like this
